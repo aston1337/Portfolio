@@ -22,7 +22,7 @@
     <header>
         <h2>The Basic Language of the Web: HTML</h2>
         <img alt="author" height="50" src="img/laura-jones.jpg" width="50">
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
         <img alt="HTML Code" height="200" src="img/post-img.jpg" width="500">
     </header>
     <p>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and
@@ -56,13 +56,13 @@
 <aside>
     <h4>Related posts</h4>
     <ul>
-        <li><a href="#"><img src="img/related-1.jpg" alt="related-pic" width="75" height="75">How to Learn Web Development</a><p>By Jonas Schmedtmann</p></li>
-        <li><a href="#"><img src="img/related-2.jpg" alt="related-pic" width="75" height="75">The unknown power of CSS</a><p>By Jim Dillon</p></li>
-        <li><a href="#"><img src="img/related-3.jpg" alt="related-pic" width="75" height="75">Why JavaScript is awesome</a><p>By Matilda</p></li>
+        <li><a href="#"><img src="img/related-1.jpg" alt="related-pic" width="75" height="75">How to Learn Web Development</a><p class="related-author">By Jonas Schmedtmann</p></li>
+        <li><a href="#"><img src="img/related-2.jpg" alt="related-pic" width="75" height="75">The unknown power of CSS</a><p class="related-author">By Jim Dillon</p></li>
+        <li><a href="#"><img src="img/related-3.jpg" alt="related-pic" width="75" height="75">Why JavaScript is awesome</a><p class="related-author">By Matilda</p></li>
     </ul>
 </aside>
 <footer>
-    <p>Copyright &copy; by the Code Magazine</p>
+    <p id="copyright">Copyright &copy; by the Code Magazine</p>
 </footer>
 <script src="script.js"></script>
 </body>
