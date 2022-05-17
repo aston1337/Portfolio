@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     color: #444;
@@ -8,6 +12,7 @@ body {
 .main-header {
     background-color: #f7f7f7;
     padding: 20px 40px;
+    margin-bottom: 60px;
 }
 
 aside  {
@@ -15,6 +20,7 @@ aside  {
     border: 5px solid #1098ad;
     border-right: none;
     border-left: none;
+    padding: 50px 0;
 }
 h1, h2, h3 {
     color: #1098ad;
@@ -26,6 +32,7 @@ h1 {
 }
 h2 {
     font-size: 40px;
+    margin-bottom: 30px;
 }
 h3 {
     font-size: 30px;
@@ -34,6 +41,10 @@ h4 {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+}
+.code-img {
+    width: 80%;
+    height: auto;
 }
 p {
     font-size: 22px;
